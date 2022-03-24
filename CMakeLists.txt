@@ -18,7 +18,7 @@ set(Rust_CARGO_TARGET "arm-remarkable-linux-gnueabi")
 SET(CMAKE_CXX_FLAGS "${CONFIGURE_FLAGS} ${CXXFLAGS}")
 SET(CMAKE_C_FLAGS "${CONFIGURE_FLAGS} ${CFLAGS}")
 
-set(Corrosion_DIR "/home/klimatt/codex_rust_sdk/sysroots/x86_64-codexsdk-linux/usr/lib/cmake/Corrosion/")
+set(Corrosion_DIR "/home/klimatt/codex_rust_sdk/sysroots/x86_64-codexsdk-linux/usr/lib/cmake/Corrosion/") # Need to add Corrosion_DIR in sdk env.
 message(STATUS "Corrosion_DIR : ${Corrosion_DIR}")
 
 find_package(Corrosion REQUIRED)
